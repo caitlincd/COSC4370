@@ -13,8 +13,8 @@ int main() {
     int repos_y = 308;
     // j will iterate in the opposite direction as i
     // each will increment by 0.5 in their respective directions
-    float j = 768;
-    for(float i=0;i<769;i=i+0.5)
+    double j = 768;
+    for(double i=0;i<769;i=i+0.5)
     {
         // set pixels for the righthand side of the ellipse in RED
         bmpNew.set_pixel(i+768+repos_x, (sqrt(pow(64, 2) - pow(i/12, 2)) * 6)+repos_y, 0, 0, 255, 0);
